@@ -1,11 +1,12 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
     namespace = "com.michel.nearby"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.michel.nearby"
