@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.michel.nearby"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.michel.nearby"
